@@ -1,17 +1,30 @@
 # Nhóm Lab42
 
-<good>
-```c
-int foo (void) 
-{
-    int i;
+<table>
+<tr>
+<th> Good </th>
+<th> Bad </th>
+</tr>
+<tr>
+<td>
+
+```c++
+int foo() {
+    int result = 4;
+    return result;
 }
 ```
-</good>
-<bad>
-```c
-int foo (void) {
-    int i;
+
+</td>
+<td>
+
+```c++
+int foo() { 
+    int x = 4;
+    return x;
 }
 ```
-</bad>
+
+</td>
+</tr>
+</table>
