@@ -14,6 +14,7 @@
 </td>
 </tr>
 </table>
+
 ## Giới thiệu đề tài
     Đề tài tập trung vào quá trình crawl dữ liệu từ trang web batdongsan để thu thập thông tin về các căn chưng cư. 
     Dữ liệu sẽ được lưu vào cở sơ dữ liệu để dể dàng quản lí và truy cập. Sau đó sẽ phân tích những thông tin hữu ích phục
