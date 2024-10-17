@@ -20,8 +20,24 @@
 Dữ liệu sẽ được lưu vào cở sơ dữ liệu để dể dàng quản lí và truy cập. Sau đó sẽ phân tích những thông tin hữu ích phục
 vụ cho quá trình mua bán cũng như phân tích thị trường bất động sản.
 
-## Ngôn ngữ lập trình sử dụng
-<img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png" alt="" width="70" />
+## Cấu trúc
+    ## README.md
+    Tài liệu hướng dẫn và thông tin
+    
+    ## Dữ liệu/
+    Thư mục chứa mã nguồn thu thập và xử lí dữ liệu
+    - **crawl.py**
+    - **processed.py** 
+    
+    ## Mã/
+    Thư mục chứa các mã nguồn lưu trữ và phân tích dữ liệu
+    - **database.py**
+    - **analysis.py**
+    
+    ## requirements.txt
+    Tập tin chứa danh sách các thư viện cần thiết
+    
+
 
 
     
