@@ -21,7 +21,7 @@ Dữ liệu sẽ được lưu vào cở sơ dữ liệu để dể dàng quản
 vụ cho quá trình mua bán cũng như phân tích thị trường bất động sản.
 
 ## Ngôn ngữ lập trình sử dụng
-<img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png" alt="" width="50" />
+<img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png" alt="" width="70" />
 
 
     
