@@ -42,6 +42,14 @@ class Database:
     def count_documents(self, collection_name, query):
         return self.db[collection_name].count_documents(query)
     
+    # lấy tất cả các collection
+    def list_collection_names(self):
+        return self.db.list_collection_names()
+    
+    # lấy tất cả các bản ghi
+    def find_all(self, collection_name):
+        return self.db[collection_name].find()
+    
 # Tạo đối tượng database
 db = Database("CSDM")
 
