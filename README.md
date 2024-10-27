@@ -25,7 +25,7 @@
     </tr>
 <tr>
 <td>
-    Thông
+ Nguyễn Minh   Thông
 </td>
 <td>
     2286400033
