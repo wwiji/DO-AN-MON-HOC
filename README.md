@@ -2,34 +2,32 @@
 ## Thành Viên
 <table>
 <tr>
-<th> Họ và tên </th>
-<th> MSSV </th>
+	<th> Họ và tên </th>
+	<th> MSSV </th>
 </tr>
 <tr>
-<td>
-    Trần Văn Thiện
-</td>
-<td>
-    2286400033
-</td>
+	<td>
+	    Trần Văn Thiện
+	</td>
+	<td>
+	    2286400033
+	</td>
 </tr>
-    </tr>
+	<tr>
+	<td>
+	    Kiệt
+	</td>
+	<td>
+	    2286400033
+	</td>
+	</tr>
 <tr>
-<td>
-    Kiệt
-</td>
-<td>
-    2286400033
-</td>
-</tr>
-    </tr>
-<tr>
-<td>
- Nguyễn Minh   Thông
-</td>
-<td>
-    2286400033
-</td>
+	<td>
+	 Nguyễn Minh   Thông
+	</td>
+	<td>
+	    2286400033
+	</td>
 </tr>
 </table>
 
@@ -40,9 +38,42 @@ vụ cho quá trình mua bán cũng như phân tích thị trường bất độ
 
 ## Cấu trúc
 
-    
 
 
 
-    
+## Chạy Crawl data
 
+Clone the project
+
+```shell
+git clone https://github.com/hunghg255/reactjs-tiptap-editor.git
+```
+
+Go to the project directory
+
+```shell
+cd DO-AN-MON-HOC
+```
+
+Activate and deactivate the virtual environment
+- Active
+```shell
+./env/Scripts/activate #activate
+```
+
+- deactivate
+```shell
+(env) ...\your_path\DO-AN-MON-HOC> deactivate
+```
+
+Install dependencies
+
+```shell
+pip install -r ./src/requirements.txt
+```
+
+Start the Demo crawl data
+
+```shell
+python .\src\data.test.py
+```
